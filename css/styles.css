@@ -1,0 +1,90 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+.logo {
+  color: #000;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+.nav-list {
+  color: #212121;
+}
+
+.nav-list:hover {
+  color: #2196f3;
+}
+
+.contacts-list {
+  color: #757575;
+}
+
+.contacts-list:hover,
+.contacts-list:focus {
+  color: #2196f3;
+}
+
+.title {
+  background-color: #2f303a;
+}
+
+.title-text {
+  color: #ffffff;
+}
+
+.title-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.feauters-subtitle {
+  color: #212121;
+}
+
+.box-subtitle {
+  color: #212121;
+}
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-subtitle {
+  color: #212121;
+}
+
+.team-name {
+  color: #212121;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: #ffffff;
+}
+
+.address-link {
+  color: #ffffff;
+}
+
+.address-link-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Цвет заголовка #FFFFFF */
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* акцент #2196F3 */
+/* цвет фона #FFFFFF */
+/* вторичный цвет фона темный #2F303A */
+/* вторичный цвет фона светлый #F5F4FA */
+/* цвет логотипа #2196F3 #000000 */
+/* шрифт логотипа ralivay */
+/* шрифт текста roboto */
+/* футер контакты color: rgba(255, 255, 255, 0.6); */

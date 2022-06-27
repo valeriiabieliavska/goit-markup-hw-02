@@ -1,65 +1,94 @@
 body {
   background-color: #ffffff;
   color: #757575;
+  font-family: 'Roboto', sans-serif;
 }
-
+/* Header */
 .logo {
   color: #000;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .logo-blue {
   color: #2196f3;
 }
 
-.nav-list {
+.nav-list a {
   color: #212121;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-.nav-list:hover {
+.nav-list a:hover {
   color: #2196f3;
 }
 
-.contacts-list {
+.contacts-list a {
   color: #757575;
 }
 
-.contacts-list:hover,
-.contacts-list:focus {
+.contacts-list a:hover,
+.contacts-list a:focus {
   color: #2196f3;
 }
 
-.title {
+/* Main */
+
+.hero {
   background-color: #2f303a;
 }
 
-.title-text {
+.hero-title {
   color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 }
 
 .title-button {
   background-color: #2196f3;
   color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
 }
 
-.feauters-subtitle {
+.title {
   color: #212121;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
 }
 
-.box-subtitle {
+.subtitle {
   color: #212121;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.desc {
+  color: #757575;
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .team {
   background-color: #f5f4fa;
 }
 
-.team-subtitle {
-  color: #212121;
-}
-
-.team-name {
-  color: #212121;
-}
+/* Footer */
 
 .footer {
   background-color: #2f303a;
@@ -67,6 +96,10 @@ body {
 
 .footer-logo {
   color: #ffffff;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .address-link {
@@ -77,9 +110,27 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Цвет заголовка #FFFFFF */
-/* цвет основного текста #212121 */
-/* цвет вторичного текста #757575 */
+/* portfolio */
+
+.menu-button {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+/* Цвет заголовка hero-title #FFFFFF */
+/* цвет основного текста title, subtitle #212121 */
+/* цвет вторичного desc текста #757575 */
 /* акцент #2196F3 */
 /* цвет фона #FFFFFF */
 /* вторичный цвет фона темный #2F303A */

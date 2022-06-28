@@ -3,33 +3,43 @@ body {
   color: #757575;
   font-family: 'Roboto', sans-serif;
 }
-/* Header */
+/* Шапка сайта */
 .logo {
   color: #000;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 2.21;
+  text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .logo-blue {
   color: #2196f3;
 }
 
-.nav-list a {
+.navigation-link {
   color: #212121;
-  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
-.nav-list a:hover {
+.navigation-link:hover {
   color: #2196f3;
 }
 
 .contacts-list a {
   color: #757575;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts-list a:hover,
@@ -37,7 +47,7 @@ body {
   color: #2196f3;
 }
 
-/* Main */
+/* Заголовок */
 
 .hero {
   background-color: #2f303a;
@@ -45,50 +55,92 @@ body {
 
 .hero-title {
   color: #ffffff;
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 4.29;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .title-button {
+  font-family: inherit;
   background-color: #2196f3;
   color: #ffffff;
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  font-style: normal;
+  line-height: 2.14;
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
+
+
+/* Особеннсти */
+
+.feauters-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.feauters-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Чем мы занимаемся */
 
 .title {
   color: #212121;
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 3;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
-.subtitle {
+/* Наша команда */
+.team-subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
-  font-family: 'Roboto';
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
 }
 
-.desc {
+.team-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #757575;
-  font-family: 'Roboto';
-  font-size: 14px;
-  line-height: 24px;
 }
 
 .team {
   background-color: #f5f4fa;
 }
 
-/* Footer */
+/* Подвал сайта */
 
 .footer {
   background-color: #2f303a;
@@ -99,33 +151,76 @@ body {
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 2.21;
+  text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 .address-link {
   color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address-link-contacts {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-/* portfolio */
+/* Portfolio */
+
+/* Портфолио */
 
 .menu-button {
   color: #212121;
   background-color: #f5f4fa;
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.86;
   cursor: pointer;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
 
 .menu-button:hover,
 .menu-button:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+
+.portfolio-subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2.57;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-desc {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.14;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.portfolio-list {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 /* Цвет заголовка hero-title #FFFFFF */

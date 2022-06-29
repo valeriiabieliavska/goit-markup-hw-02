@@ -20,7 +20,6 @@ body {
 
 .navigation-link {
   color: #212121;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -35,7 +34,6 @@ body {
 .contacts-list a {
   color: #757575;
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,7 +56,6 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  font-style: normal;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -70,7 +67,6 @@ body {
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  font-style: normal;
   line-height: 1.86;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -85,7 +81,6 @@ body {
 /* Особеннсти */
 
 .feauters-subtitle {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -95,7 +90,6 @@ body {
 }
 
 .feauters-desc {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -110,14 +104,12 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  font-style: normal;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 /* Наша команда */
 .team-subtitle {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -127,7 +119,6 @@ body {
 }
 
 .team-desc {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -153,7 +144,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  font-style: normal;
   letter-spacing: 0.03em;
 }
 
@@ -177,6 +167,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.list {
+  list-style: none;
+}
+
+.current-link {
+  color: #2196f3;
+}
 /* Portfolio */
 
 /* Портфолио */
@@ -191,7 +188,6 @@ body {
   cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
-  font-style: normal;
 }
 
 .menu-button:hover,
@@ -201,7 +197,6 @@ body {
 }
 
 .portfolio-subtitle {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -210,7 +205,6 @@ body {
 }
 
 .portfolio-desc {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.86;
